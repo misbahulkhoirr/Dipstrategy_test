@@ -46,7 +46,6 @@ export const failed = (errorMessage) =>
 
 const detailMovieAction = (id) => 
 {
-    console.log('idaction', id);
     return async (dispatch) =>
     {
         dispatch({ type: 'SET_LOADING', value: true })

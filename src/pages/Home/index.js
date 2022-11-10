@@ -45,7 +45,6 @@ const getData = (name) => {
   useEffect(() => {
     getData('popular')
   }, [isFocused]);
-console.log('data', data);
   return (
     <View style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>

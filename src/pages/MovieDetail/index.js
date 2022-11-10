@@ -24,7 +24,7 @@ const MovieDetail = ({route}) => {
     useEffect(() => {
         dispatch(detailMovieAction(id))
     }, []);
-    console.log('data', data);
+
     return (
         <>
             <View style={styles.container}>
